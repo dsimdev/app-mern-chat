@@ -1,18 +1,13 @@
-import React from "react";
+import React from 'react'
 
 const SignedOutMenu = () => {
-  return (
-    <>
-      <div>
-        <li>
-          <a href="/login">Login</a>
-        </li>
-        <li>
-          <a href="/signup">Signup</a>
-        </li>
-      </div>
-    </>
-  );
-};
+    return (
+        <>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/signup">Signup</a></li>
+        </>
 
-export default SignedOutMenu;
+    )
+}
+
+export default SignedOutMenu
