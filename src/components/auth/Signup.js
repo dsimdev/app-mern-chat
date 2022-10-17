@@ -11,7 +11,7 @@ const Signup = () => {
     e.preventDefault();
     console.log(name, email, password);
     try {
-      const res = await fetch("http://localhost:5000/signup", {
+      const res = await fetch("https://api-mern-chat.herokuapp.com/signup", {
         method: "POST",
         body: JSON.stringify({ name, email, password }),
         headers: {
