@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const SignedInMenu = ({ logout }) => {
-    return (
-        <li onClick={logout}><a href="#">Logout</a></li>
-    )
-}
+  return (
+    <li onclick="{logout}">
+      <a href="#">Logout</a>
+    </li>
+  );
+};
 
-export default SignedInMenu
+export default SignedInMenu;
